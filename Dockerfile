@@ -14,6 +14,11 @@ RUN apt-get update && \
     gcc && apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
+# Python dependencies
+RUN pip install validators
+RUN pip install jupyter_declarativewidgets
+
+
 # Julia dependencies
 RUN echo "deb http://ppa.launchpad.net/staticfloat/juliareleases/ubuntu trusty main" > /etc/apt/sources.list.d/julia.list && \
     apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3D3D3ACC && \
