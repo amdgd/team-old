@@ -2,7 +2,7 @@
 # Distributed under the terms of the Modified BSD License.
 FROM jupyter/pyspark-notebook
 
-MAINTAINER Ankit <ankit@googlegroups.com>
+MAINTAINER Ankit <ankitm@googlegroups.com>
 
 USER root
 
