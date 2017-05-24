@@ -22,8 +22,6 @@ RUN apt-get update && \
 
 
 
-
-
 ###################################
 # JUPYTER RELATED
 
