@@ -1,0 +1,1 @@
+{"book2":{"publisher":"Pearson","year":"2017","name":"Multivariate Data Analysis","topic":"EDA"},"book3":{"publisher":"Miliier & Miller","year":"2015","name":"Intro to Stats","topic":"Stats"},"book1":{"publisher":"Wiley","year":"2016","name":"Intro to Linear Regression","topic":"ML"}}
