@@ -12,8 +12,7 @@ ENV R_LIBS_USER $SPARK_HOME/R/lib
 # R pre-requisites
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    apt-utils
-    \fonts-dejavu \
+    apt-utils \
     less \
     nano \
     gfortran \
