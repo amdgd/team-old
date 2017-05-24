@@ -12,7 +12,8 @@ ENV R_LIBS_USER $SPARK_HOME/R/lib
 # R pre-requisites
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    fonts-dejavu \
+    apt-utils
+    \fonts-dejavu \
     less \
     nano \
     gfortran \
@@ -21,11 +22,6 @@ RUN apt-get update && \
 
 
 
-# nbgrader support
-RUN conda install --quiet --yes -c jhamrick nbgrader \
-    && conda clean -tipsy
-RUN nbgrader extension install
-RUN nbgrader extension activate
 
 
 ###################################
